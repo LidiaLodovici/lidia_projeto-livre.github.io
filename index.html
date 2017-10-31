@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ept">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Group up</title>
+
+</head>
+
+<body>
+
+
+    <!--HEADER-->
+
+
+
+    <header>
+
+
+        <nav>
+
+
+            <div class="nome-empresa">
+                <h1>Group up</h1>
+
+            </div>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#motivos">Motivos</a></li>
+                <li><a href="#uso">Como funciona</a></li>
+                <li><a href="#cadastro">Registre-se</a></li>
+                <li><a href=""><button id="login" class="btn btn-warming">Login</button></a></li>
+
+            </ul>
+        </nav>
+
+
+        <div class="banner"></div>
+
+    </header>
+
+    <!--SECTIONS-->
+    <main>
+        <!--SOBRE-->
+
+        <section id="sobre">
+
+            <h1>Inicie agora seus projetos! </h1>
+            <p> Desenvolva novas habilidades estudando em grupo.</p>
+
+            <div class="sobre-info">
+
+                <div class="sobre-info-img">
+                    <img src="img/estudantes.png" alt="Foto de estudantes">
+                </div>
+                <!-- <p> Aqui você cria seu grupo de estudo, conhece pessoas interessadas, organiza suas metas. </p> -->
+                <div class="sobre-info-txt">
+
+                </div>
+            </div>
+
+            <div class="sobre-info-txt">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam quod commodi voluptatum nam odio officia
+                    quis? Ipsum quibusdam soluta quo deleniti quas, possimus, tempore obcaecati eum quasi fugiat at rem.</p>
+            </div>
+
+        </section>
+
+
+        <!--MOTIVOS-->
+        <section id="motivos">
+
+            <div>
+                <h2> Por que usar? </h2>
+            </div>
+
+            <div class="motivos-row">
+                <div>
+                    <!--<div>-->
+                    <div class="tpc">
+                        <img src="img/economize.png" alt="">
+                        <h3>Economize tempo</h3>
+                        <p>O grupo de estudo pode já existir ou pode existir pessoas também interessadas no assunto.</p>
+                    </div>
+
+                    <div class="tpc">
+                        <img src="img/conexao.png" alt="">
+                        <h3>Networking</h3>
+                        <p>Conheça pessoas que tenham os mesmos objetivos e já se dedicam ao assunto.</p>
+                    </div>
+                </div>
+
+                <!--</div>-->
+
+                <div>
+                    <div class="tpc">
+                        <img src="img/estudar.png" alt="">
+                        <h3>Não procrastine mais seus estudos</h3>
+                        <p>Coloque meta nos seus projetos. Foque nos seus objetivos. Estipula horários</p>
+                    </div>
+
+                    <div class="tpc">
+                        <img src="img/brainstorming.png" alt="">
+                        <h3>Conexão</h3>
+                        <p>Pesquisa em grupo pode gerar mais ideias e facilitar o entendimento sobre o assunto.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!--COMO FUNCIONA-->
+
+        <section id="uso">
+
+            <div>
+                <h2>Como funciona?</h2>
+                <div class="uso-row">
+                    <div class=" uso-step">
+                        <img src="img/pesquisar.png" alt="Lupa para pesquisar">
+                        <h3>Pesquise</h3>
+                        <p> Logue-se e verifique se o grupo de estudo para o tema desejado já existe.</p>
+                    </div>
+
+                    <div class="uso-step">
+                        <img src="img/contato.png" alt="">
+                        <h3>Conecte-se</h3>
+                        <p>Caso o grupo já exista, verifique com o organizador a possibilidade de participar ou crie outro grupo.</p>
+                    </div>
+
+                    <div class="uso-step">
+                        <img src="img/criar.png" alt="Máquina de escrever">
+                        <h3>Crie um grupo de estudo</h3>
+                        <p>Logue-se e cadastre o tema desejado.</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+        <!--CADASTRO-->
+
+        <section id="cadastro">
+
+            <div>
+                <h2>Cadastre seu grupo de estudo</h2>
+                <p>Pare de procrastinar agora.</p>
+
+            </div>
+
+            <div class="criar-grupo">
+                <form>
+
+
+                    <div class="col-xs-12 col-sm-offset-4 col-sm-4 col-sm-offset-4 form-group">
+
+                        <label for="nome-departamento">Nome do departamento:</label>
+
+                        <select class="form-control" name="departamento" id="departamento" required> 
+                    <option value="">Selecione</option>
+                    <option value="DLM">Departamento de Letras Modernas (DLM)</option>
+                    <option value="DLO">Departamento de Letras Orientais (DLO)</option>
+                    <option value="DL">Departamento de Linguistica (DL)</option>
+                    <option value="DTLLC">Departamento de Teoria Literária e Literatura Comparada (DTLLC)</option>
+                </select>
+                    </div>
+
+
+
+
+                    <div class="col-xs-12 col-sm-offset-4 col-sm-4 form-group">
+
+
+                        <label>Título do grupo de estudo:</label>
+
+
+
+                        <input class="form-control" type="text" name="nome-grupo" placeholder="Digite o título do grupo de estudo" required>
+
+
+                    </div>
+
+
+
+                    <div class="col-xs-12 col-sm-offset-4 col-sm-4 form-group">
+
+                        <label>Nome do organizador:</label>
+                        <input class="form-control" type="text" placeholder="Digite seu nome" required>
+
+
+                    </div>
+
+
+
+                    <div class="col-xs-12 col-sm-offset-4 col-sm-4 form-group duracao"><label>Número do partipante?</label>
+                        <input class="form-control" type="number" min="0" max="10" required></div>
+
+                    <div class="col-xs-12 col-sm-offset-4 col-sm-4 form-group">
+                        <label>Duração do projeto:</label>
+                        <input class="form-control" type="number" min="4" max="50" placeholder="semanas" required>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-offset-4 col-sm-4 col-sm-offset-4 form-group">
+                        <label>Qual o período disponível para estudo/ encontro?</label>
+
+                        <select class="form-control" name="periodo" id="periodo">
+                    <option value="selecione">Selecione</option>
+                    <option value="matutino">Matutino</option>
+                    <option value="vespertino">Vespertino</option>
+                    <option value="noturno">Noturno</option>
+                    <option value="integral">Integral</option>
+                </select></div>
+
+                    <div class="col-xs-12 col-sm-offset-4 col-sm-4 col-sm-offset-4 form-group">
+                        <label for="descricao">Descrição:</label>
+                        <textarea class="form-control" rows="5" placeholder="Descrição sobre o grupo de estudo."></textarea>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-offset-4 col-sm-4 col-sm-offset-4 form-group">
+                        <button class="btn btn-danger">CRIAR GRUPO</button>
+                    </div>
+            </div>
+            </form>
+
+            </div>
+        </section>
+
+
+
+
+
+    </main>
+
+
+
+    <!--FOOTER-->
+
+    <footer id="footer">
+        <div class="footer-txt">
+            <p>Projeto Livre</p>
+            <img src="img/reprograma.png" alt="logo do reprograma">
+        </div>
+        <p>by Lídia Lodovici - Turma 4 - 2017</p>
+    </footer>
+
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
